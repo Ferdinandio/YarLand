@@ -1,0 +1,79 @@
+.logoNav {
+	background-color: white;
+	vertical-align: middle;
+	height: 125px;
+	max-width: 100%;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 125px; 
+	margin-left: 7%;
+	width: max-content;
+	float: left;
+}
+
+nav {
+  height: 125px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+}
+
+.nav-links li a {
+	color: #212121;
+  text-decoration: none;
+  font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+
+.hd-bgr {
+	display: flex;
+}
+
+.hd-bgr-wht {
+	flex-grow: 1;
+}
+
+.hd-bgr-blk {
+	flex-grow: 6;
+	background-color: #212121;
+	height: 654px;
+}
+
+.hdTxt {
+	position: absolute;
+	top: 350px;
+	left: 22%;
+	width: 56%;
+	min-height: 108px;
+	background-color: #212121;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.hdTxtTitle {
+	color: white;
+	font-size: 3.8vw;
+	line-height: 22px;
+	letter-spacing: 3px;
+}
+
+.hdTxtText {
+	color: white;
+	font-size: 1.5vw;
+	line-height: 22px;
+	letter-spacing: 1.1px;
+	margin-top: 0.7vw;
+}

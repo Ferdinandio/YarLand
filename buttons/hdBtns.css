@@ -1,0 +1,10 @@
+.hdBtns {
+	position: absolute;
+	top: 575px;
+	left: 33%;
+	background-color: #212121;
+	width: 467px;
+	height: 73px;
+	display: flex;
+	justify-content: space-between;
+}
