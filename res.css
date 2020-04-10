@@ -1,6 +1,28 @@
 .wrapper {
 	margin: 0 auto;
 	max-width: 1740px;
+	overflow: hidden;
+}
+
+@media screen and (max-width: 1380px) {
+	.sec4__2 {
+		min-height: 670px;
+		width: 400px;
+		margin-bottom: 30px;
+	}
+
+	.sec5__2 {
+		min-height: 487px;
+		width: 400px;
+	}
+
+	.cardPrice {
+		margin-bottom: 30px;
+	}
+
+	.cardMan {
+		margin-bottom: 30px;
+	}
 }
 
 @media screen and (max-width: 1285px) {
@@ -15,6 +37,22 @@
 	.hdBtns {
 		margin-left: -5%;
 	}
+
+	.sec2__2 {
+		margin-top: 150px;
+	}
+
+	.sec6__2 {
+		width: 100%;
+	}
+
+	.block {
+		justify-content: center;
+	}
+
+	.block .seo {
+		height: 350px;
+	}
 }
 
 @media screen and (max-width: 1030px) {
@@ -25,6 +63,13 @@
 	.nav-links {
 		width: 70%;
 	}
+
+	.sec7__2 {
+		width: 50%;
+		justify-content: center;
+	}
+
+	
 }
 
 @media screen and (max-width: 770px) {
@@ -61,5 +106,55 @@
 		width: 223px;
 		top: 520px;
 		left: 35%;
+	}
+
+	.sec3 .blockBtn {
+		width: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-content: center;
+		margin: 110px auto;
+	}
+	.blockBtn .blockBtn__all {
+		height: 58px;
+		flex-basis: 50%;
+		/* flex-grow: 5.5; */
+		margin-bottom: 10px;
+	}
+	.blockBtn .blockBtn__123 {
+		/* flex-grow: 1; */
+		flex-basis: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.block {
+		width: 100%;
+	}
+	.block img {
+		width: 100%;
+	}
+	.block .seo {
+		width: 100%;
+	}
+	.block .seo .seoTitle {
+		width: 100%;
+	}
+	.block .seo .seoDateDev {
+		width: 100%;
+	}
+	.block .seo .seoText {
+		width: 100%;
+	}
+
+	
+	form .textarea p {
+		width: 30%;
+		margin-right: 10%;
+	}
+	form label textarea {
+		height: 96%;
+		width: 55%;
 	}
 }

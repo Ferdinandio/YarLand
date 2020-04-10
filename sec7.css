@@ -1,0 +1,158 @@
+.sec7 {
+	width: 100%;
+	min-height: 1240px;
+	background: linear-gradient( rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85) ), url('./assets/contactUs.jpeg');
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.sec7__1 .titleSec2 {
+	width: 90%;
+	padding-top: 130px;
+}
+.sec7__1 .titleSec2 .titleTop {
+	color: white;
+}
+.sec7__1 .titleSec2 .titleBottom {
+	color: white;
+}
+
+.sec7__2 {
+	margin-top: 20px;
+	width: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.wrapAddress {
+	width: 259px;
+	height: 194px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+.wrapAddress .address {
+	width: 108px;
+	height: 108px;
+	border-radius: 50%;
+	background: #3949AB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.wrapAddress .address img {
+	width: 62px;
+	height: 62px;
+}
+.wrapAddress .text {
+	color: white;
+	width: 250px;
+	margin-bottom: 15px;
+}
+
+form {
+	width: 80%;
+	min-height: 552px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	align-content: space-between;
+}
+form label {
+	background-color: white;
+	line-height: 87px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+form label input {
+	font-size: 20px;
+	height: 40%;
+	width: 70%;
+	border: none;
+}
+
+form .name {
+	margin-right: 5%;
+	width: 47.5%;
+	min-height: 87px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+form .email {
+	width: 47.5%;
+	min-height: 87px;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+form .textarea {
+	height: 306px;
+	width: 100%;
+	border-radius: 15px;
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+form .btn {
+	width: 223px;
+	height: 73px;
+	line-height: 22px;
+	border-radius: 15px;
+	margin-bottom: 50px;
+}
+
+form .btn input {
+	width: 223px;
+	height: 73px;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background-color: white;
+}
+
+form .textarea p {
+	height: 78px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 78px;
+	width: 25%;
+	margin-right: 5%;
+	text-align: left;
+	padding-left: 10px;
+}
+form label textarea {
+	margin-top: 3%;
+	height: 87%;
+	width: 70%;
+	border: none;
+	text-align: left;
+	font-size: 20px;
+	margin-right: 2%;
+	resize: none;
+}
+
+form label textarea:focus {
+	outline-width: 0;
+}
+form label input:focus {
+	outline-width: 0;
+}
+
+form .btn input:focus {
+	outline: -webkit-focus-ring-color auto 0;
+}
+form .btn input:active {
+	background-color: lightgrey;
+}
+
+footer {
+	height: 61px;
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 61px;
+}

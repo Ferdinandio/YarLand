@@ -1,0 +1,145 @@
+.sec3 {
+	background: white;
+	min-height: 1619px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.sec3__1 {
+	display: flex;
+	align-content: center;
+	/* transform: translateY(90px); */
+	width: 900px;
+	margin-top: 130px;
+}
+
+.sec3__2 {
+	min-height: 785px;
+	max-width: 1374px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.bgrImg1 {
+	background-image: url(./assets/handwatch.jpeg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.bgrImg2 {
+	background-image: url(./assets/bgrImg2.jpg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.bgrImg3 {
+	background-image: url(./assets/bgrImg3.jpg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.bgrImg4 {
+	background-image: url(./assets/bgrImg4.jpg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.bgrImg5 {
+	background-image: url(./assets/bgrImg5.jpg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.bgrImg6 {
+	background-image: url(./assets/bgrImg6.jpg);
+	background-position: center;
+	background-size: 373px;
+}
+
+.card__andText .titles {
+	width: 150px;
+	display: flex;
+	align-content: center;
+}
+
+.card__andText .titles .titleTopX {
+	color: white;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+
+.card__andText .titles .titleBottomX {
+	color: white;
+	font-weight: 600;
+}
+
+.card__andText {
+	width: 373px;
+	height: 373px;
+	display: flex;
+	align-content: center;
+	margin: 9px;
+}
+
+.card__img {
+	width: 373px;
+	height: 373px;
+	margin: 9px;
+}
+
+
+
+/*  buttons   */
+
+.blockBtn {
+	width: 690px;
+	height: 58px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 110px auto;
+}
+.blockBtn .blockBtn__all {
+	width: 100px;
+	height: 55px;
+	background-color: #00897B;
+	color: #ffffff;
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+.blockBtn .blockBtn__all:hover {
+	cursor: pointer;
+}
+.blockBtn .blockBtn__123 {
+	width: 182px;
+	height: 58px;
+	border: 2px solid #00897B;
+	background-color: #ffffff;
+	color: #212121;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 22px;
+	letter-spacing: 1px;
+}
+.blockBtn .blockBtn__123:hover {
+	cursor: pointer;
+}
+
+.sec3 .greenBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 130px;
+	margin-top: 110px;
+}

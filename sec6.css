@@ -1,0 +1,101 @@
+.sec6 {
+	background: #E4FDF9;
+	width: 100%;
+	min-height: 1872px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.sec6__1 {
+	display: flex;
+	align-content: center;
+	width: 900px;
+	margin-top: 130px;
+	margin-bottom: 110px;
+}
+
+.sec6__2 {
+	width: 1185px;
+	min-height: 1205px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.invBlock {
+	flex-direction: row-reverse;
+}
+
+.block {
+	width: 1185px;
+	min-height: 408px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.block img {
+	width: 573px;
+	height: 408px;
+}
+.block .seo {
+	width: 571px;
+	height: 408px;
+}
+.block .seo .seoTitle {
+	font-weight: 600;
+	font-size: 25px;
+	letter-spacing: 1.25px;
+	text-align: start;
+	margin-top: 70px;
+}
+.block .seo .seoDateDev {
+	margin: 23px 0 23px 0;
+	text-align: start;
+}
+.block .seo .seoDateDev .seoDate {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 0.85px;
+	float: left;
+}
+.block .seo .seoDateDev .seoDate img {
+	height: 17px;
+	width: 22px;
+}
+.block .seo .seoDateDev .seoDev {
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: 0.85px;
+	width: 300px;
+}
+.block .seo .seoDateDev .seoDev img {
+	height: 17px;
+	width: 22px;
+}
+.block .seo .seoText {
+	width: 478px;
+	text-align: start;
+}
+
+.seoTitle-green {
+	color: #00897B;
+}
+
+
+
+/*  button  */
+
+.sec6 .wrGrBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 130px;
+	margin-top: 110px;
+	width: 900px;
+}
+.sec6 .wrGrBtn .greenBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

@@ -1,0 +1,138 @@
+.sec4 {
+	background: white;
+	min-height: 1145px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+
+	background: rgba(6, 12, 11, 0.2);
+}
+
+.sec4__1 {
+	display: flex;
+	align-content: center;
+	width: 900px;
+	margin-top: 130px;
+}
+
+.sec4__2 {
+	min-height: 670px;
+	width: 1172px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: center;
+	margin: 125px;
+}
+
+.cardPrice {
+	width: 373px;
+	height: 670px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.35);
+	background-color: white;
+}
+
+.cardPrice .top {
+	width: 373px;
+	height: 212px;
+	color: white;
+	background-color: #3949AB;
+	background: linear-gradient( 174.4deg, #3949AB 85%, transparent 85.6%);
+	position: relative;
+}
+
+.cardPrice .top .title {
+	position: absolute;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 1.25px;
+	left: 129px;
+	top: 50px;
+}
+
+.cardPrice .top .dol {
+	position: absolute;
+	font-weight: normal;
+	font-size: 25px;
+	letter-spacing: 1.25px;
+	left: 104px;
+	top: 110px;
+}
+
+.cardPrice .top .price {
+	position: absolute;
+	left: 121px;
+	top: 129px;
+	font-weight: normal;
+	font-size: 50px;
+	letter-spacing: 2.5px;
+}
+
+.cardPrice .top .per {
+	position: absolute;
+	font-weight: normal;
+	font-size: 17px;
+	letter-spacing: 0.85px;
+	left: 185px;
+	top: 124px;
+}
+
+.cardPrice .listBtn {
+	width: 373px;
+	height: 458px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: white;
+}
+
+.cardPrice .listBtn .list {
+	width: 200px;
+	height: 221px;
+	margin-top: 48px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+}
+
+.cardPrice .listBtn .list .listItem {
+	width: 181px;
+	height: 29px;
+	font-weight: 300;
+	font-size: 17px;
+	letter-spacing: 0.85px;
+	border-bottom: 1px solid #212121;
+}
+
+
+
+/*  buttons   */
+
+.cardPrice .listBtn .btn {
+	width: 182px;
+	height: 63px;
+	margin: 63px;
+	line-height: 63px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	border: 2px solid #212121;
+}
+
+.cardPrice .listBtn .greenBtn {
+	width: 182px;
+	height: 63px;
+	margin: 63px;
+	line-height: 63px;
+	font-weight: 600;
+	font-size: 20px;
+	letter-spacing: 1px;
+	background-color: #00897B;
+	color: white;
+}
